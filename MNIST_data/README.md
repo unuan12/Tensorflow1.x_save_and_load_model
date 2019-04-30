@@ -1,0 +1,1 @@
+Put mnist data here.
