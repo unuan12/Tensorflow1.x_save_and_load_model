@@ -20,7 +20,6 @@ print()
 print("test with .meta: ")
 
 with tf.Session() as sess:
-    #https://blog.csdn.net/liuxiao214/article/details/79048136
     # load the meta graph and weights
     saver = tf.train.import_meta_graph('./model/mnist_model-4000.meta')
     saver.restore(sess, tf.train.latest_checkpoint("./model/"))
