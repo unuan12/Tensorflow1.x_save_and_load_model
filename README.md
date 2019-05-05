@@ -2,12 +2,12 @@
 
 This repository is built to learn how tensorflow 1.x load models.
 
-#### Environment
+### Environment
 
 + python 3.6
 + tensorflow-gpu 1.13
 
-#### Usage
+### Usage
 
 run `mnist_train.py` to get trained models.
 
@@ -23,7 +23,7 @@ you can use `Tensorboard` to view network structure，such as
 
 `tensorboard --logdir=./log/test_with_meta`
 
-#### Result
+### Result
 
 Select the top 5000 MNIST datasets for testing.
 
