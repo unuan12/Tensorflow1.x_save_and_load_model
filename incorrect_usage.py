@@ -1,14 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat May  4 19:18:31 2019
-
-@author: Junyuan
-"""
-
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
